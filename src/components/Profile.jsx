@@ -1,12 +1,22 @@
 import React from 'react'
-import image from "../assets/profile_img.jpeg"
+import profileimage from "../assets/profile-image.svg"
+import imagehover from "../assets/img-hover.svg"
+import imagefocused from "../assets/img-focused.svg"
 
 export default function Profile() {
   return (
-    <section id='profile-section'>
-        <img src={image} alt="profile_image" id="profile_id"/>
+    <div className="profile-container">
+      <div id='profile-section'>
+          <img src={profileimage} alt="profile_image" id="profile_id"/>
+      </div>
+      <img src={imagehover} className="image_hover"/>
+      <img src={imagefocused} className="image_focused"/>
+
+      <div className="profile-content">
         <p id="twitter">Adebola_xo</p>
         <p id="slack">Wonuola</p>
-    </section>
+      </div>
+    </div>
+   
   )
 }

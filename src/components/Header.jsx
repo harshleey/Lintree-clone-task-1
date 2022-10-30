@@ -1,6 +1,6 @@
 import React from 'react'
-import shareicon from "../assets/Share_icon.svg"
-import moreicon from "../assets/more-icon.svg"
+import { RiShareForwardLine } from "react-icons/ri";
+import {FiMoreHorizontal} from "react-icons/fi"
 import { useState, useEffect } from 'react'
 
 
@@ -22,7 +22,7 @@ export default function Header() {
 
   return (
     <header id='header'>
-        <a href="" id='share-icon'><img src={windowWidth > 700 ? shareicon : moreicon} alt="share-icon" /></a>
+        <a href="" id='share-icon'>{windowWidth > 750 ? <RiShareForwardLine /> : <FiMoreHorizontal/>}</a>
         
     </header>
   )
