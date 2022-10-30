@@ -1,5 +1,5 @@
 import React from 'react'
-import shareicon from "../assets/share_icon.svg"
+import shareicon from "../assets/Share_icon.svg"
 import moreicon from "../assets/more-icon.svg"
 import { useState, useEffect } from 'react'
 
