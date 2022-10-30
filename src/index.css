@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul li{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0.5em auto;
+  text-align: center;
+}
+
+#header {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 2em 0.5em; 
+}
+
+#share-icon {
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+#share-icon:hover {
+  background-color: #98a2b3;
+}
+
+
+#profile_id {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5em;
+}
+
+#twitter {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+#slack {
+  display: none;
+}
+
+#links-section {
+  width: 100%;
+}
+
+.link a {
+  width: 90%;
+  color: #101828;
+  display: block;
+  padding: 1em 1em;
+  border: none;
+  border-radius: 7px;
+  background-color: #d0d5dd;
+  transition: all 400ms linear;
+  font-weight: 500;
+}
+
+.link a:hover {
+  cursor: pointer;
+  background-color: #98a2b3;
+  box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
+}
+
+#social-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 18%;
+  margin: 2em auto;
+  
+}
+
+#footer-section {
+  width: 100%;
+  border-top: 1px solid gray;
+  text-align: left;
+  padding: 2em 1em;
+}
+
+#footer-section p {
+  color: #98a2b3
+}
+
+
+
+@media (min-width: 800px) {
+  #footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #footer-section > img {
+    height: 30px;
+  }
+}
+
+
