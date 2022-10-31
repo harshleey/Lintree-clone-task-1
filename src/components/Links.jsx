@@ -7,7 +7,9 @@ export default function Links() {
 
   return (
     <section className="links-section">
+      <ul>
         {links.map(link => <Link key={link.id} link={link} />)}
+      </ul>
     </section>
   )
 }
