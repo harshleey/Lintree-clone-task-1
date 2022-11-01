@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         idName: "twitter-link",
-        link: "twitter.com/harshleey",
+        link: "twitter.com/adebola_xo",
         webName: "Twitter Link"
     },
     {
