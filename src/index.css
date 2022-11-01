@@ -58,6 +58,23 @@ a {
   position: relative;
   margin-bottom: 1em;
   cursor: pointer;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#profile__img::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #fff;
+  transition: width .3s;
+}
+
+.profile__img:hover:after {
+  width: 100%;
 }
 
 .image_hover{
@@ -66,7 +83,7 @@ a {
   opacity: 0;
 }
 
-.image_focused{
+/* .image_focused{
   position: absolute;
   opacity: 0;
   visibility: hidden; 
@@ -81,7 +98,7 @@ a {
   opacity: 1;
   cursor: pointer;
   visibility: visible;
-}
+} */
 
 
 #twitter {
@@ -98,8 +115,8 @@ a {
   width: 100%;
 }
 
-.link a {
-  width: 90%;
+.button {
+  width: 95%;
   color: #101828;
   display: block;
   padding: 1em 1em;
@@ -110,7 +127,7 @@ a {
   font-weight: 500;
 }
 
-.link a:hover {
+.button:hover {
   cursor: pointer;
   background-color: #98a2b3;
   box-shadow: 0.5px 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);

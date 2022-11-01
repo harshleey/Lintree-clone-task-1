@@ -6,7 +6,7 @@ export default function Link({link}) {
         <li className='link'
         >
         <a id={link.idName} href={`https://${link.link}`} 
-        target="_blank">{link.webName}</a></li>
+        target="_blank" className='button'>{link.webName}</a></li>
       
   )
 }

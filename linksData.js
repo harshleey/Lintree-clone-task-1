@@ -7,7 +7,7 @@ export default [
     },
     {
         id: 2,
-        idName: "button_zuri",
+        idName: "btn__zuri",
         link: "training.zuri.team/",
         webName: "Zuri Team",
         alt: "books on design and coding"
@@ -20,7 +20,7 @@ export default [
     },
     {
         id: 4,
-        idName: "book_pyhton",
+        idName: "book__pyhton",
         link: "books.zuri.team/python-for-beginners?ref_id=wonuola",
         webName: "Python Books"
     },
@@ -32,7 +32,7 @@ export default [
     },
     {
         id: 6,
-        idName: "book_design",
+        idName: "book__design",
         link: "books.zuri.team/design-rules",
         webName: "Design Books"
     }
