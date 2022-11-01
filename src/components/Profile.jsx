@@ -1,16 +1,19 @@
 import React from 'react'
 import profileimage from "../assets/profile_img.jpeg"
-import imagehover from "../assets/img-hover.svg"
-import imagefocused from "../assets/img-focused.svg"
+// import {FiCamera} from "react-icons/Fi"
+
 
 export default function Profile() {
   return (
     <div className="profile-container">
       <div id='profile-section'>
-          <img src={profileimage} alt="profile_image" id="profile__img"/>
+          <img id="profile__img" src={profileimage} alt="profile_image" />
       </div>
-      {/* <img src={imagehover} className="image_hover"/>
-      <img src={imagefocused} className="image_focused"/> */}
+
+      {/* <div className="overlay">
+        {FiCamera}
+      </div> */}
+      
 
       <div className="profile-content">
         <p id="twitter">Adebola_xo</p>
