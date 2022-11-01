@@ -54,7 +54,7 @@ a {
   margin: 0 auto; 
 }
 
-#profile_id {
+#profile__id {
   position: relative;
   margin-bottom: 1em;
   cursor: pointer;
